@@ -5,10 +5,10 @@ import NavBar from './components/NavBar.jsx'
 import ItemListContainer from './components/ItemListContainer.jsx'
 import {BrowserRouter} from 'react-router-dom'
 import { Routes, Route } from "react-router-dom"
-import Home from "./components/pages/Home.jsx"
-import Categorias from "./components/pages/Categorias.jsx"
-import Destacado from "./components/pages/Destacado.jsx"
-import Carrito from "./components/pages/Carrito.jsx"
+import Home from "./pages/Home.jsx"
+import Categorias from "./pages/Categorias.jsx"
+import Destacado from "./pages/Destacado.jsx"
+import Carrito from "./pages/Carrito.jsx"
 
 function App(){
  return (
@@ -25,8 +25,6 @@ function App(){
             <Route path="/Destacados" element={Destacado}/>
 
             <Route path="/Carrito" element={Carrito}/>
-
-            <Route path="*" element={alert("400")}/>
 
         </Routes>
     </BrowserRouter>

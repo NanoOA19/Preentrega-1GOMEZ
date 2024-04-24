@@ -1,6 +1,3 @@
-//import NavBar from "./components/NavBar"
-
-
 function Header() {
     return (
         <header>
